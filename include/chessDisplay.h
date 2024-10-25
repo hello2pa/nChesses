@@ -258,7 +258,7 @@ void drawCoord(int y, int x) // y and x passed in from the top left of the board
 //self explanatory
 void drawControls(int row, int col)
 {
-    int posX = (col / 2) - 28,
+    int posX = (col / 2) - 27,
     posY = (row / 2) + 10;
     mvprintw(posY, posX, "[←↑→↓] to move   [enter] to enter    [bckspc] to return");
 }
