@@ -1,5 +1,3 @@
 You heard it right, CHESS made with NCURSES
 
-![image](https://github.com/user-attachments/assets/27a305ab-93ed-40c4-8316-eb6085a6b1fc)
-
-<img src="https://github.com/user-attachments/assets/27a305ab-93ed-40c4-8316-eb6085a6b1fc" width="480">
+<img src="https://github.com/user-attachments/assets/e5f89199-1e9c-4c45-a101-f77ad039c88f" width="480">
