@@ -38,13 +38,13 @@ int main()
     getmaxyx(stdscr, row, col);                        // get the screen sized, used for positioning
     int xpos = (col / 2) - (width / 2),                // center x
         ypos = (row / 2) - (height / 2) - 1,           // center y
-        currentMoveX = (col / 2) - 40,
+        currentMoveX = (col / 2) - 35,
         currentMoveY = (row / 2) - 3,
-        activePlayerX = (col / 2) + 25,
+        activePlayerX = (col / 2) + 20,
         activePlayerY = (row / 2) - 2;
     WINDOW *board = newwin(height, width, ypos, xpos); // create the window for the board
     WINDOW *currentMove = newwin(3, 14, currentMoveY, currentMoveX);        // create the window for currentMove
-    WINDOW *activePlayer = newwin(1, 10, 11, activePlayerX);
+    WINDOW *activePlayer = newwin(1, 10, activePlayerY, activePlayerX);
     drawCoord(ypos, xpos);                             // draws coordinate
     drawControls(row, col);                                    // draws controls
     refresh();                                         // refresh the screen
